@@ -26,7 +26,7 @@ def main():
             print("Database does not exist")
         else:
             print(err)
-        cnx.close()
+       
 
     return "Welcome!"
 
