@@ -1,7 +1,6 @@
 from mysql.connector import (connection)
 import os
 from flask import Flask
-from flask_mysqldb import MySQL
 import mysql.connector
 from mysql.connector import errorcode
 
