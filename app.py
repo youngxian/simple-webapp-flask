@@ -17,7 +17,7 @@ def main():
 
     try:
         cnx = mysql.connector.connect(
-            user='scott', password='password', host='127.0.0.1', database='employees')
+            user='jerry', password='8iu7*IU&', host='mysqldb', database='employees')
         print ("Database connected")
     except mysql.connector.Error as err:
         if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
