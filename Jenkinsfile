@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello World'
+                sh """ pwd """
             }
         }
         stage('Deploy') {
