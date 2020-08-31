@@ -28,7 +28,7 @@ def main():
             print(err)
        
 
-    return "Welcome Pascal!"
+    return "Welcome Rock!"
 
 
 @app.route('/how are you')
